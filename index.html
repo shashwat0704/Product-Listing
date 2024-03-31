@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Product Listing</h1>
+  </header>
+
+  <div id="filters">
+    <div id="filter-options">
+      <div class="filter-option">
+        <label class="filter-label" for="category">Category:</label>
+        <select class="filter-select" id="category">
+          <option value="all">All Categories</option>
+          <option value="electronics">Electronics</option>
+          <option value="clothing">Clothing</option>
+        </select>
+      </div>
+
+      <div class="filter-option">
+        <label class="filter-label" for="price-range">Price Range:</label>
+        <select class="filter-select" id="price-range">
+          <option value="all">All Prices</option>
+          <option value="0-50">$0 - $50</option>
+          <option value="50-100">$50 - $100</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div id="product-listing">
+    <!-- Product cards go here -->
+    <div class="product-card">
+      <img class="product-image" src="./images/501257_252_144_ArtFile_ru.jpg" alt="Product 1">
+      <div class="product-details">
+        <div class="product-title">Product 1</div>
+        <div class="product-price">$29.99</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img class="product-image" src="./images/clouds-daylight-forest-grass-371589.jpg" alt="Product 2">
+      <div class="product-details">
+        <div class="product-title">Product 2</div>
+        <div class="product-price">$49.99</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
